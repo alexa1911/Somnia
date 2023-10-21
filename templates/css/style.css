@@ -562,3 +562,11 @@ textarea {
 body {
     background-color: #FF7002;
 }
+
+input[name="title"] {
+    width: 1000px;
+    height: 100px;
+    background-color: #DEDED;
+    border-radius: 15px;
+    margin: 160px;
+}
