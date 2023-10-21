@@ -565,8 +565,39 @@ body {
 
 input[name="title"] {
     width: 1000px;
-    height: 100px;
+    height: 70px;
     background-color: #DEDED;
     border-radius: 15px;
-    margin: 160px;
+    margin: 10px auto;
+    display: block;
+}
+
+
+input[name="subtitle"] {
+    width: 1000px;
+    height: 50px;
+    background-color: #DEDED;
+    border-radius: 15px;
+    margin: 10px auto;
+
+    display: block;
+}
+
+input[name="text"] {
+    width: 1000px;
+    height: 250px;
+    background-color: #DEDED;
+    border-radius: 15px;
+    margin: 10px auto;
+    display: block;
+}
+
+button[type="submit"] {
+    background-color: #000AFF;
+    color: white;
+    border-radius: 5px;
+    margin: 10px auto;
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
 }
