@@ -563,6 +563,16 @@ body {
     background-color: #FF7002;
 }
 
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
 input[name="title"] {
     width: 1000px;
     height: 70px;

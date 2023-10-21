@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="./css/style.css">
+    <h1>Веб приложение для сервиса публикации статей</h1>
 
 </head>
 
 <body>
     <form method="POST">
-        <input type="text" name="title">
-        <input type="text" name="subtitle">
-        <input type="text" name="text">
+        <input type="text" name="title" placeholder="Введите заголовок">
+        <input type="text" name="subtitle" placeholder="Введите подзаголовок">
+        <input type="text" name="text" placeholder="Введите текст">
         <button type="submit" onclick="window.location.href = '/add_article';">Отправить</button>
         <input type="file" name="image" accept="image/*"> <!-- Добавляем поле для загрузки картинки -->
         <button type="submit">Загрузить картинку</button>
